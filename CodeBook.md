@@ -1,27 +1,27 @@
 ## Codebook for HAR tidy dataset
-The dataset contains means of variables obtained from accelerometer and gyroscope measuremants. The original data come from the Human Activity Recognition Using Smartphones Dataset v1.0 from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The dataset contains means of variables obtained from accelerometer and gyroscope measurements. The original data come from the Human Activity Recognition Using Smartphones Dataset v1.0 from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-During the experiment measurements were done 30 subjects each one performing 6 different activities in several repetetions. The data are grouped by the subjects and by the activivites. Each row contains subject_id, activity name and AVERAGES of each of the measured variables from the replications. 
+The experimental measurements were done with 30 subjects each one performing 6 different activities in several repetetions. The data are grouped by the subjects and by the activivites. Each row contains subject_id, activity name and AVERAGES of each of the measured variables from the replications. 
 
-subject_id - id number of the subject (values from 1 to 30)
-activity - description of the activity (6 activities in total)
-tBodyAcc-(mean|std)-(X|Y|Z) - average of the mean values or standard deviations from several measurements of the tBodyAcc variable in the X, Y, or Z direction
-tGravityAcc-(mean|std)-(X|Y|Z)
-tBodyAccJerk-(mean|std)-(X|Y|Z)
-tBodyGyro-(mean|std)-(X|Y|Z)
-tBodyGyroJerk-(mean|std)-(X|Y|Z)
-tBodyAccMag-(mean|std)-(X|Y|Z)
-tGravityAccMag-(mean|std)-(X|Y|Z)
-tBodyAccJerkMag-(mean|std)-(X|Y|Z)
-tBodyGyroMag-(mean|std)-(X|Y|Z)
-tBodyGyroJerkMag-(mean|std)-(X|Y|Z)
-fBodyAcc-(mean|std)-(X|Y|Z)
-fBodyAccJerk-(mean|std)-(X|Y|Z)
-fBodyGyro-(mean|std)-(X|Y|Z)
-fBodyAccMag-(mean|std)-(X|Y|Z)
-fBodyAccJerkMag-(mean|std)-(X|Y|Z)
-fBodyGyroMag-(mean|std)-(X|Y|Z)
-fBodyGyroJerkMag-(mean|std)-(X|Y|Z)
+*	subject_id - id number of the subject (values from 1 to 30)
+*	activity - description of the activity (6 activities in total)
+*	tBodyAcc-(mean|std)-(X|Y|Z) - average of the mean values or standard deviations from several measurements of the tBodyAcc variable in the X, Y, or Z direction
+*	tGravityAcc-(mean|std)-(X|Y|Z)
+*	tBodyAccJerk-(mean|std)-(X|Y|Z)
+*	tBodyGyro-(mean|std)-(X|Y|Z)
+*	tBodyGyroJerk-(mean|std)-(X|Y|Z)
+*	tBodyAccMag-(mean|std)-(X|Y|Z)
+*	tGravityAccMag-(mean|std)-(X|Y|Z)
+*	tBodyAccJerkMag-(mean|std)-(X|Y|Z)
+*	tBodyGyroMag-(mean|std)-(X|Y|Z)
+*	tBodyGyroJerkMag-(mean|std)-(X|Y|Z)
+*	fBodyAcc-(mean|std)-(X|Y|Z)
+*	fBodyAccJerk-(mean|std)-(X|Y|Z)
+*	fBodyGyro-(mean|std)-(X|Y|Z)
+*	fBodyAccMag-(mean|std)-(X|Y|Z)
+*	fBodyAccJerkMag-(mean|std)-(X|Y|Z)
+*	fBodyGyroMag-(mean|std)-(X|Y|Z)
+*	fBodyGyroJerkMag-(mean|std)-(X|Y|Z)
 
 The following text is copied from the features_info.txt that is available with the original data at the link given above:
 
