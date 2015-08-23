@@ -4,10 +4,11 @@ The HAR tidy dataset was obtained from Human Activity Recognition Using Smartpho
 The description of the variables can be found in the CookBook.md file in this repository.
 
 The steps to get the tidy dataset:
+
 1. The test data are obtained from the files subject_test.txt, X_test.txt y_test.txt in "UCI HAR Dataset/test/" folder.
-	- subject_test.txt contains id of the subject for each observation.
-	- y_test.txt contains numerical label of the performed activity for each observation
-	- X_test.txt contains the measured values of all the variables for each observation
+	* subject_test.txt contains id of the subject for each observation.
+	* y_test.txt contains numerical label of the performed activity for each observation
+	* X_test.txt contains the measured values of all the variables for each observation
 2. The training data are obtaine in a similar fashion from the respective files in "UCI HAR Dataset/train/" folder.
 3. The subject ids and activities ids are attached as the first two columns to the measured values and saved together with them in the test_data and train_data frames respectively.
 4. The test_data and train_data data_frames are then combined into one large data frame called data.
